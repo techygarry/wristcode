@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BrightSmile Dental | Your Trusted Family Dentist</title>
+  <meta name="description" content="BrightSmile Dental offers comprehensive dental care including general dentistry, cosmetic treatments, orthodontics, and emergency services. Book your appointment today.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="#" class="logo">
+          <svg class="logo-icon" viewBox="0 0 32 32" width="32" height="32" fill="none">
+            <path d="M16 2C10 2 8 6 8 10c0 3 1 5 2 8l3 10c.5 1.5 1 2 3 2s2.5-.5 3-2l3-10c1-3 2-5 2-8 0-4-2-8-8-8z" fill="currentColor" opacity="0.9"/>
+            <path d="M13 8a3 3 0 016 0" stroke="white" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+          </svg>
+          <span>BrightSmile</span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#team">Our Team</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-primary nav-cta">Book Appointment</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <span class="hero-badge">Trusted by 5,000+ Patients</span>
+          <h1>Your Smile Deserves the <span class="text-accent">Best Care</span></h1>
+          <p>Experience modern dentistry with a gentle touch. From routine checkups to advanced cosmetic treatments, we provide personalized care for your whole family.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary btn-lg">Book Your Visit</a>
+            <a href="#services" class="btn btn-outline btn-lg">Our Services</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <strong>15+</strong>
+              <span>Years Experience</span>
+            </div>
+            <div class="stat">
+              <strong>5,000+</strong>
+              <span>Happy Patients</span>
+            </div>
+            <div class="stat">
+              <strong>98%</strong>
+              <span>Satisfaction Rate</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="hero-image-placeholder">
+            <svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="400" rx="200" fill="#E0F2FE"/>
+              <path d="M200 120c-30 0-50 20-50 50 0 15 5 25 10 40l15 50c2.5 7.5 5 10 15 10s12.5-2.5 15-10l15-50c5-15 10-25 10-40 0-30-20-50-30-50z" fill="#0EA5E9" opacity="0.4"/>
+              <path d="M180 155a20 20 0 0140 0" stroke="white" stroke-width="3" stroke-linecap="round" fill="none"/>
+              <circle cx="200" cy="200" r="70" stroke="#0EA5E9" stroke-width="2" stroke-dasharray="8 4" fill="none" opacity="0.3"/>
+              <text x="200" y="320" text-anchor="middle" fill="#0EA5E9" font-size="16" font-family="Inter, sans-serif">Healthy Smiles Start Here</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Offer</span>
+        <h2>Comprehensive Dental Services</h2>
+        <p>From preventive care to advanced treatments, we offer a full range of dental services to keep your smile healthy and beautiful.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card" data-animate>
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" width="48" height="48">
+              <circle cx="24" cy="24" r="24" fill="#E0F2FE"/>
+              <path d="M24 14c-6 0-8 4-8 8 0 3 1 5 2 8l3 6c.5 1 1 1 3 1s2.5 0 3-1l3-6c1-3 2-5 2-8 0-4-2-8-8-8z" fill="#0EA5E9"/>
+              <path d="M21 20a3 3 0 016 0" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>General Dentistry</h3>
+          <p>Comprehensive exams, cleanings, fillings, and preventive care to maintain your oral health.</p>
+          <a href="#contact" class="service-link">Learn More &rarr;</a>
+        </div>
+        <div class="service-card" data-animate>
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" width="48" height="48">
+              <circle cx="24" cy="24" r="24" fill="#FEF3C7"/>
+              <path d="M18 28l3-3 3 3 3-3 3 3" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M16 20h16v2a8 8 0 01-16 0v-2z" fill="#F59E0B" opacity="0.3"/>
+              <rect x="18" y="16" width="12" height="4" rx="2" fill="#F59E0B"/>
+            </svg>
+          </div>
+          <h3>Cosmetic Dentistry</h3>
+          <p>Teeth whitening, veneers, bonding, and smile makeovers for a radiant, confident smile.</p>
+          <a href="#contact" class="service-link">Learn More &rarr;</a>
+        </div>
+        <div class="service-card" data-animate>
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" width="48" height="48">
+              <circle cx="24" cy="24" r="24" fill="#DCFCE7"/>
+              <rect x="16" y="18" width="16" height="12" rx="3" fill="#22C55E" opacity="0.3"/>
+              <path d="M20 22h8M20 26h5" stroke="#22C55E" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="32" cy="18" r="5" fill="#22C55E"/>
+              <path d="M30 18l1.5 1.5L34 17" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Dental Implants</h3>
+          <p>Permanent tooth replacement solutions that look, feel, and function like natural teeth.</p>
+          <a href="#contact" class="service-link">Learn More &rarr;</a>
+        </div>
+        <div class="service-card" data-animate>
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" width="48" height="48">
+              <circle cx="24" cy="24" r="24" fill="#F3E8FF"/>
+              <path d="M20 16v16M28 16v16" stroke="#A855F7" stroke-width="2" stroke-linecap="round"/>
+              <path d="M16 20h16M16 28h16" stroke="#A855F7" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="24" cy="24" r="3" fill="#A855F7" opacity="0.3"/>
+            </svg>
+          </div>
+          <h3>Orthodontics</h3>
+          <p>Braces, clear aligners, and retainers to straighten teeth and correct bite issues.</p>
+          <a href="#contact" class="service-link">Learn More &rarr;</a>
+        </div>
+        <div class="service-card" data-animate>
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" width="48" height="48">
+              <circle cx="24" cy="24" r="24" fill="#FFE4E6"/>
+              <path d="M24 16v6l4 4" stroke="#EF4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="24" cy="24" r="10" stroke="#EF4444" stroke-width="2" fill="none"/>
+              <path d="M18 14l-2-2M30 14l2-2" stroke="#EF4444" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Emergency Care</h3>
+          <p>Same-day emergency dental appointments for urgent pain, trauma, or dental emergencies.</p>
+          <a href="#contact" class="service-link">Learn More &rarr;</a>
+        </div>
+        <div class="service-card" data-animate>
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" width="48" height="48">
+              <circle cx="24" cy="24" r="24" fill="#FFF7ED"/>
+              <circle cx="24" cy="22" r="6" fill="#F97316" opacity="0.3"/>
+              <path d="M24 14c-4 0-6 3-6 6s2 5 6 5 6-2 6-5-2-6-6-6z" fill="#F97316"/>
+              <path d="M16 34c0-4 3.5-7 8-7s8 3 8 7" stroke="#F97316" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Pediatric Dentistry</h3>
+          <p>Gentle, fun dental care designed specifically for children of all ages.</p>
+          <a href="#contact" class="service-link">Learn More &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image">
+          <div class="about-image-placeholder">
+            <svg viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="500" height="400" rx="20" fill="#F0F9FF"/>
+              <rect x="40" y="60" width="200" height="280" rx="12" fill="#E0F2FE"/>
+              <rect x="260" y="40" width="200" height="150" rx="12" fill="#BAE6FD"/>
+              <rect x="260" y="210" width="200" height="150" rx="12" fill="#E0F2FE"/>
+              <circle cx="140" cy="160" r="40" fill="#0EA5E9" opacity="0.2"/>
+              <path d="M140 140c-12 0-16 8-16 16 0 6 2 10 4 16l6 12c1 2 2 2 6 2s5-0 6-2l6-12c2-6 4-10 4-16 0-8-4-16-16-16z" fill="#0EA5E9" opacity="0.5"/>
+              <text x="140" y="240" text-anchor="middle" fill="#0EA5E9" font-size="13" font-family="Inter, sans-serif">Modern Clinic</text>
+              <text x="360" y="120" text-anchor="middle" fill="#0284C7" font-size="13" font-family="Inter, sans-serif">Advanced Equipment</text>
+              <text x="360" y="290" text-anchor="middle" fill="#0EA5E9" font-size="13" font-family="Inter, sans-serif">Comfortable Setting</text>
+            </svg>
+          </div>
+        </div>
+        <div class="about-text">
+          <span class="section-tag">About Us</span>
+          <h2>A Modern Dental Practice Built on <span class="text-accent">Trust &amp; Excellence</span></h2>
+          <p>For over 15 years, BrightSmile Dental has been providing exceptional dental care to families in our community. Our state-of-the-art facility combines advanced technology with a warm, welcoming atmosphere.</p>
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" width="24" height="24">
+                  <path d="M9 12l2 2 4-4" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <circle cx="12" cy="12" r="10" stroke="#0EA5E9" stroke-width="2"/>
+                </svg>
+              </div>
+              <div>
+                <strong>State-of-the-Art Technology</strong>
+                <p>Digital X-rays, 3D scanning, and laser treatments for precise, comfortable care.</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" width="24" height="24">
+                  <path d="M9 12l2 2 4-4" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <circle cx="12" cy="12" r="10" stroke="#0EA5E9" stroke-width="2"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Comfortable Environment</strong>
+                <p>Relaxing atmosphere with amenities to ease dental anxiety for all patients.</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" width="24" height="24">
+                  <path d="M9 12l2 2 4-4" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <circle cx="12" cy="12" r="10" stroke="#0EA5E9" stroke-width="2"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Insurance Friendly</strong>
+                <p>We accept most major dental insurance plans and offer flexible payment options.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="team" id="team">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Meet Our Experts</span>
+        <h2>Our Experienced Team</h2>
+        <p>Our dedicated team of dental professionals is committed to providing you with the highest quality care in a friendly, supportive environment.</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card" data-animate>
+          <div class="team-avatar">
+            <svg viewBox="0 0 200 200" fill="none" width="200" height="200">
+              <circle cx="100" cy="100" r="100" fill="#E0F2FE"/>
+              <circle cx="100" cy="80" r="25" fill="#0EA5E9" opacity="0.5"/>
+              <path d="M60 160c0-22 18-40 40-40s40 18 40 40" fill="#0EA5E9" opacity="0.2"/>
+              <text x="100" y="180" text-anchor="middle" fill="#0EA5E9" font-size="12">DDS</text>
+            </svg>
+          </div>
+          <h3>Dr. Sarah Mitchell</h3>
+          <span class="team-role">Lead Dentist &amp; Founder</span>
+          <p>15+ years of experience in general and cosmetic dentistry. Harvard School of Dental Medicine graduate.</p>
+        </div>
+        <div class="team-card" data-animate>
+          <div class="team-avatar">
+            <svg viewBox="0 0 200 200" fill="none" width="200" height="200">
+              <circle cx="100" cy="100" r="100" fill="#FEF3C7"/>
+              <circle cx="100" cy="80" r="25" fill="#F59E0B" opacity="0.5"/>
+              <path d="M60 160c0-22 18-40 40-40s40 18 40 40" fill="#F59E0B" opacity="0.2"/>
+              <text x="100" y="180" text-anchor="middle" fill="#F59E0B" font-size="12">DMD</text>
+            </svg>
+          </div>
+          <h3>Dr. James Chen</h3>
+          <span class="team-role">Orthodontist</span>
+          <p>Specialist in orthodontic treatments including Invisalign and traditional braces for all ages.</p>
+        </div>
+        <div class="team-card" data-animate>
+          <div class="team-avatar">
+            <svg viewBox="0 0 200 200" fill="none" width="200" height="200">
+              <circle cx="100" cy="100" r="100" fill="#DCFCE7"/>
+              <circle cx="100" cy="80" r="25" fill="#22C55E" opacity="0.5"/>
+              <path d="M60 160c0-22 18-40 40-40s40 18 40 40" fill="#22C55E" opacity="0.2"/>
+              <text x="100" y="180" text-anchor="middle" fill="#22C55E" font-size="12">DDS</text>
+            </svg>
+          </div>
+          <h3>Dr. Emily Rodriguez</h3>
+          <span class="team-role">Pediatric Dentist</span>
+          <p>Dedicated to making dental visits fun and stress-free for children of all ages.</p>
+        </div>
+        <div class="team-card" data-animate>
+          <div class="team-avatar">
+            <svg viewBox="0 0 200 200" fill="none" width="200" height="200">
+              <circle cx="100" cy="100" r="100" fill="#F3E8FF"/>
+              <circle cx="100" cy="80" r="25" fill="#A855F7" opacity="0.5"/>
+              <path d="M60 160c0-22 18-40 40-40s40 18 40 40" fill="#A855F7" opacity="0.2"/>
+              <text x="100" y="180" text-anchor="middle" fill="#A855F7" font-size="12">RDH</text>
+            </svg>
+          </div>
+          <h3>Lisa Thompson</h3>
+          <span class="team-role">Senior Hygienist</span>
+          <p>Certified dental hygienist with 10+ years of experience in preventive dental care.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Patient Reviews</span>
+        <h2>What Our Patients Say</h2>
+        <p>Don't just take our word for it. Here's what our patients have to say about their experience at BrightSmile Dental.</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card" data-animate>
+          <div class="testimonial-stars">
+            <svg viewBox="0 0 20 20" fill="#F59E0B" width="20" height="20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.62l5.34-.78z"/></svg>
+            <svg viewBox="0 0 20 20" fill="#F59E0B" width="20" height="20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.62l5.34-.78z"/></svg>
+            <svg viewBox="0 0 20 20" fill="#F59E0B" width="20" height="20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.62l5.34-.78z"/></svg>
+            <svg viewBox="0 0 20 20" fill="#F59E0B" width="20" height="20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.62l5.34-.78z"/></svg>
+            <svg viewBox="0 0 20 20" fill="#F59E0B" width="20" height="20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.62l5.34-.78z"/></svg>
+          </div>
+          <blockquote>"Best dental experience I've ever had! Dr. Mitchell is incredibly gentle and thorough. The entire staff makes you feel like family. I actually look forward to my dental visits now."</blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar">MR</div>
+            <div>
+              <strong>Maria Rodriguez</strong>
+              <span>Patient for 3 years</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-animate>
+          <div class="testimonial-stars">
+            <svg viewBox="0 0 20 20" fill="#F59E0B" width="20" height="20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.62l5.34-.78z"/></svg>
+            <svg viewBox="0 0 20 20" fill="#F59E0B" width="20" height="20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.62l5.34-.78z"/></svg>
+            <svg viewBox="0 0 20 20" fill="#F59E0B" width="20" height="20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.62l5.34-.78z"/></svg>
+            <svg viewBox="0 0 20 20" fill="#F59E0B" width="20" height="20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.62l5.34-.78z"/></svg>
+            <svg viewBox="0 0 20 20" fill="#F59E0B" width="20" height="20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.62l5.34-.78z"/></svg>
+          </div>
+          <blockquote>"My kids used to dread the dentist. Since switching to BrightSmile, they actually get excited about their appointments. Dr. Rodriguez is amazing with children!"</blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar">DW</div>
+            <div>
+              <strong>David Williams</strong>
+              <span>Patient for 5 years</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-animate>
+          <div class="testimonial-stars">
+            <svg viewBox="0 0 20 20" fill="#F59E0B" width="20" height="20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.62l5.34-.78z"/></svg>
+            <svg viewBox="0 0 20 20" fill="#F59E0B" width="20" height="20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.62l5.34-.78z"/></svg>
+            <svg viewBox="0 0 20 20" fill="#F59E0B" width="20" height="20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.62l5.34-.78z"/></svg>
+            <svg viewBox="0 0 20 20" fill="#F59E0B" width="20" height="20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.62l5.34-.78z"/></svg>
+            <svg viewBox="0 0 20 20" fill="#F59E0B" width="20" height="20"><path d="M10 1l2.39 4.84 5.34.78-3.87 3.77.91 5.32L10 13.27l-4.77 2.51.91-5.32L2.27 6.62l5.34-.78z"/></svg>
+          </div>
+          <blockquote>"I got Invisalign through BrightSmile and the results are incredible. Dr. Chen was so professional and attentive throughout the entire process. Highly recommend!"</blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar">SK</div>
+            <div>
+              <strong>Sarah Kim</strong>
+              <span>Patient for 2 years</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-banner">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Ready for a Brighter Smile?</h2>
+        <p>New patients receive a complimentary consultation and dental exam. Schedule your visit today and experience the BrightSmile difference.</p>
+        <div class="cta-actions">
+          <a href="#contact" class="btn btn-white btn-lg">Book Free Consultation</a>
+          <a href="tel:+15551234567" class="btn btn-outline-white btn-lg">
+            <svg viewBox="0 0 24 24" fill="none" width="20" height="20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+            </svg>
+            (555) 123-4567
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <span class="section-tag">Get In Touch</span>
+          <h2>Book Your Appointment</h2>
+          <p>Fill out the form and our team will get back to you within 24 hours to confirm your appointment.</p>
+          <div class="info-cards">
+            <div class="info-card">
+              <div class="info-icon">
+                <svg viewBox="0 0 24 24" fill="none" width="24" height="24" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Visit Us</strong>
+                <p>123 Dental Avenue, Suite 200<br>San Francisco, CA 94102</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-icon">
+                <svg viewBox="0 0 24 24" fill="none" width="24" height="24" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Call Us</strong>
+                <p>(555) 123-4567</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-icon">
+                <svg viewBox="0 0 24 24" fill="none" width="24" height="24" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M12 6v6l4 2"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Office Hours</strong>
+                <p>Mon - Fri: 8:00 AM - 6:00 PM<br>Sat: 9:00 AM - 2:00 PM<br>Sun: Closed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrapper">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" placeholder="John" required>
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Doe" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="service">Service Needed</label>
+              <select id="service" name="service" required>
+                <option value="" disabled selected>Select a service</option>
+                <option value="general">General Checkup &amp; Cleaning</option>
+                <option value="cosmetic">Cosmetic Dentistry</option>
+                <option value="implants">Dental Implants</option>
+                <option value="orthodontics">Orthodontics</option>
+                <option value="emergency">Emergency Care</option>
+                <option value="pediatric">Pediatric Dentistry</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="date">Preferred Date</label>
+              <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Additional Notes</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us about your dental needs or concerns..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg btn-full">Request Appointment</button>
+            <p class="form-note">We'll confirm your appointment within 24 hours.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <svg class="logo-icon" viewBox="0 0 32 32" width="32" height="32" fill="none">
+              <path d="M16 2C10 2 8 6 8 10c0 3 1 5 2 8l3 10c.5 1.5 1 2 3 2s2.5-.5 3-2l3-10c1-3 2-5 2-8 0-4-2-8-8-8z" fill="currentColor" opacity="0.9"/>
+              <path d="M13 8a3 3 0 016 0" stroke="white" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+            </svg>
+            <span>BrightSmile</span>
+          </a>
+          <p>Providing exceptional dental care for the whole family since 2010. Your healthy smile is our passion.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">General Dentistry</a></li>
+            <li><a href="#services">Cosmetic Dentistry</a></li>
+            <li><a href="#services">Dental Implants</a></li>
+            <li><a href="#services">Orthodontics</a></li>
+            <li><a href="#services">Emergency Care</a></li>
+            <li><a href="#services">Pediatric Dentistry</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Contact Info</h4>
+          <ul class="footer-contact">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" width="16" height="16" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              123 Dental Avenue, Suite 200
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" width="16" height="16" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              (555) 123-4567
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" width="16" height="16" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+              hello@brightsmile.com
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 BrightSmile Dental. All rights reserved.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="#" aria-label="Twitter">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" width="24" height="24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>

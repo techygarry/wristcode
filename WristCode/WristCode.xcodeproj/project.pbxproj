@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02A7AE48694716A44D6A4F34 /* PreviewBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E059F394E213A16D2230E9 /* PreviewBrowserView.swift */; };
+		055C018BEBE380F462FE9037 /* SessionBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DFA3A1451413E0B23BFDF0 /* SessionBrowserView.swift */; };
+		1DCCD4B4ED1C641A50FC05CC /* DiffFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366008A5D535FE6EEB330E99 /* DiffFile.swift */; };
+		207EE5ED3078F1CAA4E4E4D5 /* TerminalTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CC92E078819E3FE9073D3 /* TerminalTextView.swift */; };
+		2B318636AA3D974D346A4F69 /* PairingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67B13F49018C8B0DCC9B828 /* PairingView.swift */; };
+		371DA5471795EA88EC084EA9 /* BridgeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D97A5718DF19789477FC0B1 /* BridgeConfig.swift */; };
+		3980D6F03F3B51B1116C081D /* WristCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F563AB37D49B10F832C38975 /* WristCodeApp.swift */; };
+		3D1ABDD4EDB058183ADE2EAF /* PixelMascot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B3B2F8C31B462428F63C2B /* PixelMascot.swift */; };
+		3E60EC81F0CD25F3D7E3B21C /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18642DDE64C278BB949DDCC /* HapticManager.swift */; };
+		40F17AAE1D8E946D9AB31A52 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E82589EB323AC5BACD18527 /* SettingsView.swift */; };
+		73FCA02C93E2A0D734707CC0 /* TerminalTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB573FFFED482BCCB32168FC /* TerminalTheme.swift */; };
+		75751B5B55FB37EAF0798DBD /* VoiceEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6FA680179537E1F661200D /* VoiceEngine.swift */; };
+		83784B9AAD2050825ADB8CC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB32DCC354736397EEE02F4 /* Assets.xcassets */; };
+		8CAB08FDE925260721756A94 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EF2A94710DB5AE747723BB /* WelcomeView.swift */; };
+		9810DF869B9955633E5E817E /* QuickActionPill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804A09CFB408A42AD1CBD2C2 /* QuickActionPill.swift */; };
+		AC194FBBA1CEF14B27136A75 /* DiffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696BF5A429DA725F49D17309 /* DiffView.swift */; };
+		CD442D38763351CCFABE5598 /* TerminalMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1169AA45CA46E5BA0FDF38F7 /* TerminalMessage.swift */; };
+		D15E08E9D1D89A619277284B /* TerminalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A82E5EE368EB28388AA4A86 /* TerminalView.swift */; };
+		DBCF54D2777DE412E110230D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4203697F365B3E39C2D9931 /* ContentView.swift */; };
+		F747D5CEAD0D6DF343A96587 /* CommandPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F7CF5F60B66999E228459 /* CommandPaletteView.swift */; };
+		F80D8D052D427BABC0331337 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594E599397486FD5C90F15E7 /* Session.swift */; };
+		F871B4CCF7B551D7B2794534 /* BridgeConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE89318871FCF9821161075 /* BridgeConnection.swift */; };
+		F8F7E076AFC0B0B521BDF0EC /* BonjourDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45519F6A6307C22A0D2D63 /* BonjourDiscovery.swift */; };
+		FB5830A3D0CE4232DA38AF0F /* DiffLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B62E652FB1E5A5A0D7E1435 /* DiffLineView.swift */; };
+		FD924AEF1FC4E66DF92C79D2 /* StatusDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930AD343028C61F846B37A95 /* StatusDot.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1169AA45CA46E5BA0FDF38F7 /* TerminalMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalMessage.swift; sourceTree = "<group>"; };
+		19E059F394E213A16D2230E9 /* PreviewBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewBrowserView.swift; sourceTree = "<group>"; };
+		287CC92E078819E3FE9073D3 /* TerminalTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalTextView.swift; sourceTree = "<group>"; };
+		366008A5D535FE6EEB330E99 /* DiffFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffFile.swift; sourceTree = "<group>"; };
+		3D97A5718DF19789477FC0B1 /* BridgeConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeConfig.swift; sourceTree = "<group>"; };
+		4D45519F6A6307C22A0D2D63 /* BonjourDiscovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonjourDiscovery.swift; sourceTree = "<group>"; };
+		594E599397486FD5C90F15E7 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		5E82589EB323AC5BACD18527 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		696BF5A429DA725F49D17309 /* DiffView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffView.swift; sourceTree = "<group>"; };
+		6BE89318871FCF9821161075 /* BridgeConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeConnection.swift; sourceTree = "<group>"; };
+		73DFA3A1451413E0B23BFDF0 /* SessionBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionBrowserView.swift; sourceTree = "<group>"; };
+		742F7CF5F60B66999E228459 /* CommandPaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPaletteView.swift; sourceTree = "<group>"; };
+		7A82E5EE368EB28388AA4A86 /* TerminalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalView.swift; sourceTree = "<group>"; };
+		7B62E652FB1E5A5A0D7E1435 /* DiffLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffLineView.swift; sourceTree = "<group>"; };
+		7D6FA680179537E1F661200D /* VoiceEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceEngine.swift; sourceTree = "<group>"; };
+		804A09CFB408A42AD1CBD2C2 /* QuickActionPill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickActionPill.swift; sourceTree = "<group>"; };
+		930AD343028C61F846B37A95 /* StatusDot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusDot.swift; sourceTree = "<group>"; };
+		B67B13F49018C8B0DCC9B828 /* PairingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingView.swift; sourceTree = "<group>"; };
+		D18642DDE64C278BB949DDCC /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		D7EF2A94710DB5AE747723BB /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		DB573FFFED482BCCB32168FC /* TerminalTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalTheme.swift; sourceTree = "<group>"; };
+		E8219BEED5A159ACDE43941B /* WristCode Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WristCode Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B3B2F8C31B462428F63C2B /* PixelMascot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelMascot.swift; sourceTree = "<group>"; };
+		ECB32DCC354736397EEE02F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4203697F365B3E39C2D9931 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F563AB37D49B10F832C38975 /* WristCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WristCodeApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1C47EA86DE40267387450B2A = {
+			isa = PBXGroup;
+			children = (
+				9632ED4D54628D015A84D8C7 /* WristCode Watch App */,
+				B3DC3A496EA43E84DE1B0659 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		416FFF9311042F82460015B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D97A5718DF19789477FC0B1 /* BridgeConfig.swift */,
+				366008A5D535FE6EEB330E99 /* DiffFile.swift */,
+				594E599397486FD5C90F15E7 /* Session.swift */,
+				1169AA45CA46E5BA0FDF38F7 /* TerminalMessage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		61CE3E4E513703CB6B8FCA11 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				DB573FFFED482BCCB32168FC /* TerminalTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		7EE62D4F81FD529D69DA19D6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7B62E652FB1E5A5A0D7E1435 /* DiffLineView.swift */,
+				E9B3B2F8C31B462428F63C2B /* PixelMascot.swift */,
+				804A09CFB408A42AD1CBD2C2 /* QuickActionPill.swift */,
+				930AD343028C61F846B37A95 /* StatusDot.swift */,
+				287CC92E078819E3FE9073D3 /* TerminalTextView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		88456E40C7227EACA1B0B622 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				742F7CF5F60B66999E228459 /* CommandPaletteView.swift */,
+				696BF5A429DA725F49D17309 /* DiffView.swift */,
+				B67B13F49018C8B0DCC9B828 /* PairingView.swift */,
+				19E059F394E213A16D2230E9 /* PreviewBrowserView.swift */,
+				73DFA3A1451413E0B23BFDF0 /* SessionBrowserView.swift */,
+				5E82589EB323AC5BACD18527 /* SettingsView.swift */,
+				7A82E5EE368EB28388AA4A86 /* TerminalView.swift */,
+				D7EF2A94710DB5AE747723BB /* WelcomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9632ED4D54628D015A84D8C7 /* WristCode Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				ECB32DCC354736397EEE02F4 /* Assets.xcassets */,
+				F4203697F365B3E39C2D9931 /* ContentView.swift */,
+				F563AB37D49B10F832C38975 /* WristCodeApp.swift */,
+				7EE62D4F81FD529D69DA19D6 /* Components */,
+				416FFF9311042F82460015B5 /* Models */,
+				E8D9DC65742D88F9B4C64422 /* Services */,
+				61CE3E4E513703CB6B8FCA11 /* Theme */,
+				88456E40C7227EACA1B0B622 /* Views */,
+			);
+			path = "WristCode Watch App";
+			sourceTree = "<group>";
+		};
+		B3DC3A496EA43E84DE1B0659 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8219BEED5A159ACDE43941B /* WristCode Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8D9DC65742D88F9B4C64422 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4D45519F6A6307C22A0D2D63 /* BonjourDiscovery.swift */,
+				6BE89318871FCF9821161075 /* BridgeConnection.swift */,
+				D18642DDE64C278BB949DDCC /* HapticManager.swift */,
+				7D6FA680179537E1F661200D /* VoiceEngine.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		986DE37F40769D1FA31A967E /* WristCode Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B42CECB9D0008833E71EE23B /* Build configuration list for PBXNativeTarget "WristCode Watch App" */;
+			buildPhases = (
+				CC553FD0AE2378AA67929E52 /* Sources */,
+				0ABE6D1D95325D4C4A4E89D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WristCode Watch App";
+			packageProductDependencies = (
+			);
+			productName = "WristCode Watch App";
+			productReference = E8219BEED5A159ACDE43941B /* WristCode Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40538E64A0B13F90D1972FBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					986DE37F40769D1FA31A967E = {
+						DevelopmentTeam = FLF59NSA8T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF5C08D9391481FE904D77CB /* Build configuration list for PBXProject "WristCode" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1C47EA86DE40267387450B2A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B3DC3A496EA43E84DE1B0659 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				986DE37F40769D1FA31A967E /* WristCode Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0ABE6D1D95325D4C4A4E89D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83784B9AAD2050825ADB8CC6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC553FD0AE2378AA67929E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F7E076AFC0B0B521BDF0EC /* BonjourDiscovery.swift in Sources */,
+				371DA5471795EA88EC084EA9 /* BridgeConfig.swift in Sources */,
+				F871B4CCF7B551D7B2794534 /* BridgeConnection.swift in Sources */,
+				F747D5CEAD0D6DF343A96587 /* CommandPaletteView.swift in Sources */,
+				DBCF54D2777DE412E110230D /* ContentView.swift in Sources */,
+				1DCCD4B4ED1C641A50FC05CC /* DiffFile.swift in Sources */,
+				FB5830A3D0CE4232DA38AF0F /* DiffLineView.swift in Sources */,
+				AC194FBBA1CEF14B27136A75 /* DiffView.swift in Sources */,
+				3E60EC81F0CD25F3D7E3B21C /* HapticManager.swift in Sources */,
+				2B318636AA3D974D346A4F69 /* PairingView.swift in Sources */,
+				3D1ABDD4EDB058183ADE2EAF /* PixelMascot.swift in Sources */,
+				02A7AE48694716A44D6A4F34 /* PreviewBrowserView.swift in Sources */,
+				9810DF869B9955633E5E817E /* QuickActionPill.swift in Sources */,
+				F80D8D052D427BABC0331337 /* Session.swift in Sources */,
+				055C018BEBE380F462FE9037 /* SessionBrowserView.swift in Sources */,
+				40F17AAE1D8E946D9AB31A52 /* SettingsView.swift in Sources */,
+				FD924AEF1FC4E66DF92C79D2 /* StatusDot.swift in Sources */,
+				CD442D38763351CCFABE5598 /* TerminalMessage.swift in Sources */,
+				207EE5ED3078F1CAA4E4E4D5 /* TerminalTextView.swift in Sources */,
+				73FCA02C93E2A0D734707CC0 /* TerminalTheme.swift in Sources */,
+				D15E08E9D1D89A619277284B /* TerminalView.swift in Sources */,
+				75751B5B55FB37EAF0798DBD /* VoiceEngine.swift in Sources */,
+				8CAB08FDE925260721756A94 /* WelcomeView.swift in Sources */,
+				3980D6F03F3B51B1116C081D /* WristCodeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5A3D0EC067A0ABF51C13CF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FLF59NSA8T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WristCode-Info.plist";
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wristcode.watchapp;
+				PRODUCT_NAME = WristCode;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		9436C9BB0649F458F1C9F7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		B70FDFA74B9E86F3EE785C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FLF59NSA8T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WristCode-Info.plist";
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wristcode.watchapp;
+				PRODUCT_NAME = WristCode;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		C27226F99AB64B14F8DA22DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B42CECB9D0008833E71EE23B /* Build configuration list for PBXNativeTarget "WristCode Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A3D0EC067A0ABF51C13CF13 /* Debug */,
+				B70FDFA74B9E86F3EE785C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EF5C08D9391481FE904D77CB /* Build configuration list for PBXProject "WristCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27226F99AB64B14F8DA22DF /* Debug */,
+				9436C9BB0649F458F1C9F7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40538E64A0B13F90D1972FBB /* Project object */;
+}
